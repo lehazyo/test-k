@@ -1,4 +1,5 @@
 import React from "react";
+import { BASE_DIRECTORY } from "../../config";
 import './Bottle.css';
 
 const FULL_CIRCLE_DEGREES = 360;
@@ -9,7 +10,7 @@ export const Bottle = ({
   targetPlayerIndex,
   playersCount,
 }) => {
-  const audio = new Audio(`${process.env.PUBLIC_URL}/sound/spinning.mp3`);
+  const audio = new Audio(`${BASE_DIRECTORY}/sound/spinning.mp3`);
   if (isSpinning) {
     audio.play();
   }

@@ -3,22 +3,22 @@ import { Bottle } from './components/Bottle/Bottle';
 import { Counter } from './components/Counter/Counter';
 import { Players } from './components/Players/Players';
 import { getPlayerIndexById } from './utils/getPlayerIndexById';
-import { DURATIONS, GamePhase } from './config';
+import { BASE_DIRECTORY, DURATIONS, GamePhase } from './config';
 import { KissScene } from './components/KissScene/KissScene';
 import { Countdown } from './components/Countdown/Countdown';
 import './App.css';
 
 const PLAYERS = [
-  { id: 1, avatar: `${process.env.PUBLIC_URL}/avatars/avatar1.jpg` },
-  { id: 2, avatar: `${process.env.PUBLIC_URL}/avatars/avatar2.jpg` },
-  { id: 3, avatar: `${process.env.PUBLIC_URL}/avatars/avatar3.jpg` },
-  { id: 4, avatar: `${process.env.PUBLIC_URL}/avatars/avatar4.jpg` },
-  { id: 5, avatar: `${process.env.PUBLIC_URL}/avatars/avatar5.jpg` },
-  { id: 6, avatar: `${process.env.PUBLIC_URL}/avatars/avatar6.jpg` },
-  { id: 7, avatar: `${process.env.PUBLIC_URL}/avatars/avatar7.jpg` },
-  { id: 8, avatar: `${process.env.PUBLIC_URL}/avatars/avatar8.jpg` },
-  { id: 9, avatar: `${process.env.PUBLIC_URL}/avatars/avatar9.jpg` },
-  { id: 10, avatar: `${process.env.PUBLIC_URL}/avatars/avatar10.jpg` },
+  { id: 1, avatar: `${BASE_DIRECTORY}/avatars/avatar1.jpg` },
+  { id: 2, avatar: `${BASE_DIRECTORY}/avatars/avatar2.jpg` },
+  { id: 3, avatar: `${BASE_DIRECTORY}/avatars/avatar3.jpg` },
+  { id: 4, avatar: `${BASE_DIRECTORY}/avatars/avatar4.jpg` },
+  { id: 5, avatar: `${BASE_DIRECTORY}/avatars/avatar5.jpg` },
+  { id: 6, avatar: `${BASE_DIRECTORY}/avatars/avatar6.jpg` },
+  { id: 7, avatar: `${BASE_DIRECTORY}/avatars/avatar7.jpg` },
+  { id: 8, avatar: `${BASE_DIRECTORY}/avatars/avatar8.jpg` },
+  { id: 9, avatar: `${BASE_DIRECTORY}/avatars/avatar9.jpg` },
+  { id: 10, avatar: `${BASE_DIRECTORY}/avatars/avatar10.jpg` },
 ]
 
 export const App = () => {

@@ -21,4 +21,4 @@ export const DURATIONS = {
   RETURN_FLIGHT: 2000,
 }
 
-export const HOMEPAGE = '/test-k/';
+export const BASE_DIRECTORY = '/test-k';

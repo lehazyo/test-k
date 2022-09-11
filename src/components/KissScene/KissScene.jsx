@@ -1,4 +1,5 @@
 import React from 'react';
+import { BASE_DIRECTORY } from '../../config';
 import { getPlayerIndexById } from '../../utils/getPlayerIndexById';
 import { Player } from '../Player/Player';
 import './KissScene.css';
@@ -8,7 +9,7 @@ export const KissScene = ({
   currentPlayer,
   targetPlayer,
 }) => {
-  const audio = new Audio(`${process.env.PUBLIC_URL}/sound/kiss.mp3`);
+  const audio = new Audio(`${BASE_DIRECTORY}/sound/kiss.mp3`);
   audio.play();
 
   const playersCount = players.length;
