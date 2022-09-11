@@ -11,6 +11,7 @@ export const Bottle = ({
   playersCount,
 }) => {
   const audio = new Audio(`${BASE_DIRECTORY}/sound/spinning.mp3`);
+  audio.volume = 0.6;
   if (isSpinning) {
     audio.play();
   }

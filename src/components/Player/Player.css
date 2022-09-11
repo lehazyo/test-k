@@ -1,7 +1,5 @@
 .player {
   position: absolute;
-  width: 20%;
-  height: 20%;
   background-size: cover;
   border-radius: 50%;
   background-color: #000;
@@ -15,6 +13,20 @@
   box-shadow: 
     0 0 0 0 #ffcc41,
     0 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (orientation: landscape) {
+  .player {
+    width: 20vh;
+    height: 20vh;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .player {
+    width: 20vw;
+    height: 20vw;
+  }
 }
 
 .player:not(.player--kissing) {
