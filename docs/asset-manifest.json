@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3b6a1fbe.css",
+    "main.js": "/static/js/main.822a414a.js",
+    "static/media/Kiss.png": "/static/media/Kiss.19b76147d6d55f79d173.png",
+    "static/media/bg-seamless.jpg": "/static/media/bg-seamless.595ab693f29a38c2eeed.jpg",
+    "static/media/Bottle.png": "/static/media/Bottle.dc14a4c415cf300462e8.png",
+    "index.html": "/index.html",
+    "main.3b6a1fbe.css.map": "/static/css/main.3b6a1fbe.css.map",
+    "main.822a414a.js.map": "/static/js/main.822a414a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b6a1fbe.css",
+    "static/js/main.822a414a.js"
+  ]
+}

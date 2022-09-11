@@ -1,0 +1,40 @@
+.kissing__wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.kissing__lips {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  background-image: url(../../images/Kiss.png);
+  background-size: cover;
+  animation: kiss 1.5s 0.8s;
+}
+
+@media screen and (orientation: landscape) {
+  .kissing__lips {
+    width: 50vh;
+    height: 50vh;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .kissing__lips {
+    width: 50vw;
+    height: 50vw;
+  }
+}
+
+@keyframes kiss {
+  0% { transform: translate(-50%, -50%) scale(0); }
+  40% { transform: translate(-50%, -50%) scale(1); }
+  50% { transform: translate(-50%, -50%) scale(0.8); }
+  70% { transform: translate(-50%, -50%) scale(0.8); }
+  100% { transform: translate(-50%, -50%) scale(0); }
+}

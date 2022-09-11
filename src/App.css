@@ -1,0 +1,38 @@
+.app__wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #cfa788;
+  background-image: url(./images/bg-seamless.jpg);
+  background-position: 50%;
+  overflow: hidden;
+}
+
+.app__main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+@media screen and (orientation: landscape) {
+  .app__main {
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 100vh;
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .app__main {
+    left: 0;
+    right: 0;
+    top: 50%;
+    height: 100vw;
+    transform: translateY(-50%);
+  }
+}

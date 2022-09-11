@@ -1,0 +1,40 @@
+.player {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  background-size: cover;
+  border-radius: 50%;
+  background-color: #000;
+  transition:
+    transform .5s,
+    box-shadow .5s,
+    top .5s,
+    left .5s;
+  transform: translate(-50%, -50%)  scale(0.8);
+  transform-origin: 50%;
+  box-shadow: 
+    0 0 0 0 #ffcc41,
+    0 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.player:not(.player--kissing) {
+  transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+
+.player--current {
+  box-shadow:
+    0 0 20px 10px #ffcc41,
+    0 10px 30px rgba(0, 0, 0, 0.7);
+}
+
+.player--enhanced {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.player--hidden {
+  visibility: hidden;
+}
+
+.player--kissing {
+  transition-timing-function: ease-in-out;
+}
