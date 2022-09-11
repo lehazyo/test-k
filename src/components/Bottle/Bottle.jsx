@@ -9,7 +9,7 @@ export const Bottle = ({
   targetPlayerIndex,
   playersCount,
 }) => {
-  const audio = new Audio('/sound/spinning.mp3');
+  const audio = new Audio(`${process.env.PUBLIC_URL}/sound/spinning.mp3`);
   if (isSpinning) {
     audio.play();
   }

@@ -9,16 +9,16 @@ import { Countdown } from './components/Countdown/Countdown';
 import './App.css';
 
 const PLAYERS = [
-  { id: 1, avatar: '/avatars/avatar1.jpg' },
-  { id: 2, avatar: '/avatars/avatar2.jpg' },
-  { id: 3, avatar: '/avatars/avatar3.jpg' },
-  { id: 4, avatar: '/avatars/avatar4.jpg' },
-  { id: 5, avatar: '/avatars/avatar5.jpg' },
-  { id: 6, avatar: '/avatars/avatar6.jpg' },
-  { id: 7, avatar: '/avatars/avatar7.jpg' },
-  { id: 8, avatar: '/avatars/avatar8.jpg' },
-  { id: 9, avatar: '/avatars/avatar9.jpg' },
-  { id: 10, avatar: '/avatars/avatar10.jpg' },
+  { id: 1, avatar: `${process.env.PUBLIC_URL}/avatars/avatar1.jpg` },
+  { id: 2, avatar: `${process.env.PUBLIC_URL}/avatars/avatar2.jpg` },
+  { id: 3, avatar: `${process.env.PUBLIC_URL}/avatars/avatar3.jpg` },
+  { id: 4, avatar: `${process.env.PUBLIC_URL}/avatars/avatar4.jpg` },
+  { id: 5, avatar: `${process.env.PUBLIC_URL}/avatars/avatar5.jpg` },
+  { id: 6, avatar: `${process.env.PUBLIC_URL}/avatars/avatar6.jpg` },
+  { id: 7, avatar: `${process.env.PUBLIC_URL}/avatars/avatar7.jpg` },
+  { id: 8, avatar: `${process.env.PUBLIC_URL}/avatars/avatar8.jpg` },
+  { id: 9, avatar: `${process.env.PUBLIC_URL}/avatars/avatar9.jpg` },
+  { id: 10, avatar: `${process.env.PUBLIC_URL}/avatars/avatar10.jpg` },
 ]
 
 export const App = () => {

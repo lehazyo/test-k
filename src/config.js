@@ -20,3 +20,5 @@ export const DURATIONS = {
   START_FLIGHT: 600,
   RETURN_FLIGHT: 2000,
 }
+
+export const HOMEPAGE = '/test-k/';

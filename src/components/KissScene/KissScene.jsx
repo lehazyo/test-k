@@ -8,7 +8,7 @@ export const KissScene = ({
   currentPlayer,
   targetPlayer,
 }) => {
-  const audio = new Audio('/sound/kiss.mp3');
+  const audio = new Audio(`${process.env.PUBLIC_URL}/sound/kiss.mp3`);
   audio.play();
 
   const playersCount = players.length;

@@ -5,7 +5,7 @@
   bottom: 0;
   left: 0;
   background-color: #cfa788;
-  background-image: url(./images/bg-seamless.jpg);
+  background-image: url('./images/bg-seamless.jpg');
   background-position: 50%;
   overflow: hidden;
 }
